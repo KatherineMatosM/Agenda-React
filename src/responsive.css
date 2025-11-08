@@ -1,0 +1,41 @@
+@media (max-width: 480px) {
+  .container {
+    padding: 20px 15px;
+    margin: 10px;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.3em;
+  }
+  
+  .form-section, .contacts-section {
+    padding: 20px;
+  }
+  
+  .input-group input {
+    padding: 14px 16px 14px 50px;
+  }
+}
+
+/* Scrollbar personalizado */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--vibrant-pink), var(--light-pink));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(var(--dark-pink), var(--vibrant-pink));
+}
