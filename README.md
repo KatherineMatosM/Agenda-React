@@ -26,10 +26,7 @@ Permite **agregar, visualizar y organizar contactos** con una interfaz fluida y 
 ---
 
 ## Instalación y ejecución
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/KatherineMatosM/Agenda-React
-   ```
+1. Clona el repositorio
 
 2. Instala las dependencias:
    ```bash
